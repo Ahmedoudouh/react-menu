@@ -1,0 +1,90 @@
+.section-center {
+    font-family: "Rowdies", cursive;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 517px;
+    display: grid;
+    gap: 10px 15px;
+    justify-items: center;
+}
+
+.photo {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    display: block;
+    border: 1.8px solid #ff7d41;
+}
+
+.item-info header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #b7a8a8;
+}
+
+.price {
+    color: #007efff7;
+}
+
+.item-text {
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #000000de;
+}
+
+.title {
+    font-size: 15px;
+    color: #131314f7;
+    font-family: "Rowdies", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.small-title {
+    font-size: 5px;
+}
+
+.btn-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.filter-btn {
+    border: 2px solid #e96c46;
+    font-size: 15px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+.darck {
+    color: black;
+}
+
+.white {
+    color: rgb(255, 255, 255);
+}
+
+.mode-darck {
+    margin-left: 120px;
+    border-radius: 10px;
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+}
+
+.color-mode {
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 10px;
+    margin-top: 3px;
+}
+
+.margin {
+    padding: 10px;
+}
